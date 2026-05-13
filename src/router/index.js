@@ -1,10 +1,10 @@
 import LoginView from '@/views/LoginView.vue'
 import RegisterView from '@/views/RegiterView.vue'
 import TodoListView from '@/views/TodoListView.vue'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
 
   routes: [
     {
